@@ -1,0 +1,3 @@
+boot {:require  [reactiveclj.app]
+ :init-fns [reactiveclj.app/init]
+ :compiler-options {:asset-path "js/app.out"}}

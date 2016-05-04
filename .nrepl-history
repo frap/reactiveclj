@@ -1,0 +1,17 @@
+(cljs-repl)
+exit
+(start-repl)
+(js/alert "Hola Mundo!")
+(.log js/console "hola!")
+(start-repl)
+(-> time (.take 5) (.subscribe (fn (n) (.log js/console n))))
+(def interval js/Rx.Obseravle.interval)
+(def inetrval js/Rx.Observable.interval)
+def interval js/rx.Observable.inetrval)
+exit
+(-> time (.take 5) (.subscribe (fn [n] (.log js/console n))))
+(def interval js/Rx.Observale.interval)
+(start-repl)
+(-> time (.take 5) (.subscribe (fn [n] (.log js/console n))))
+(def interval js/Rx.Observale.interval)
+(in-ns 'sinewave)
